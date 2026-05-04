@@ -12,15 +12,15 @@ function Tweet ({tweet}) {
       <div className="body">
         <div className="top">
         <User data={tweet.user}/>
-        <Timestamp timestamp={tweet.timestamp}/>
+        <Timestamp time={tweet.timestamp}/>
         
        </div>
 
        <Message message={tweet.message}/>
        
-        <Actions />
         
 
+        <Actions />
       </div>
 
       <i className="fas fa-ellipsis-h"></i>
